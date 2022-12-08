@@ -53,3 +53,23 @@ I don't want the `0th` book, I don't know what that is. I want the **first** thi
 ## More books!!
 
 I've included a file called `my_shelf.txt` in this repo. In it is a bunch of books, their authors, and their publication dates. Read these and turn them into `Book`s please. Oh, and put them on a `Bookshelf`.
+
+## More methods!!!
+
+Now, I've included a lot of books. This is a real depiction of my shelf at home. Literally, I've read all of these. Don't judge. Now, let's do some sorting.
+
+### I'm old at heart
+
+I've got a lot of classics on my shelf. Dostoevsky, Camus, Orwell, Huxley, you name it, I've got it. Write me a method where I can specify a `year`, and it returns a list of books, all writen **before or during that year**.
+
+### Duplicate authors
+
+There are a few authors I really like, and I own a couple books for each of them. Write a method that returns a list of the names of the authors that I have **more than one** book of. Full names, please.
+
+### Duplicate book
+
+I've got two copies of the same book on my shelf! One's really old, and one's a new version. Could you write a method to find what book I have two of, and **remove** the old version from my shelf?
+
+## A Trip to IKEA
+
+Time for a new shelf. Could you take all the books written by an author with a last name between **A and K** and move them into the new shelf. You can delete them from the old shelf when you're done.
