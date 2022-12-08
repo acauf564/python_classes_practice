@@ -6,3 +6,6 @@ def main():
     bookshelf = Bookshelf()
 
     # do stuff!
+
+
+main()

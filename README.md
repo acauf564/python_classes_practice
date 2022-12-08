@@ -2,21 +2,19 @@
 
 You're given two classes, `Bookshelf` and `Book`.
 
-`Book`s have a few properties: a `title`, an `author`, and a `year of publication`.
+`Book`s have a few properties: a `title`, an `author`, and a `year of publication`. We set these when **instantiating** the book.
 
-A `Bookshelf` only has one property: a `books` list.
+A `Bookshelf` only has one property: a `books` list. It's empty by default.
 
 ## Adding some books
 
 In your code, please manually create the following books, and add them to a bookshelf.
 
-| Book Title            | Author          | Year |
-| --------------------- | --------------- | ---- |
-| No Longer Human       | Osamu Dazai     | 1948 |
-| The Parallax View     | Slavoj Žižek    | 2006 |
-| Fear Stalks the Land! | Thom Yorke      | 2021 |
-| A Certain Hunger      | Chelsea Summers | 2020 |
-| The Stranger          | Albert Camus    | 1942 |
+| Book Title            | Author       | Year |
+| --------------------- | ------------ | ---- |
+| No Longer Human       | Osamu Dazai  | 1948 |
+| The Parallax View     | Slavoj Žižek | 2006 |
+| Fear Stalks the Land! | Thom Yorke   | 2021 |
 
 ## Those better be right...
 
@@ -29,9 +27,11 @@ Dazai, O. (1948). No Longer Human.
 
 Now, loop through every book on the shelf and print out its data.
 
+A quick hint for the last name first initial thing: we may want to **split** our name into two parts. This will let us pick out our first name and our last name and do what we need with them.
+
 ## Find me a book!
 
-Time for some `Bookshelf` methods! I'm gonna need three of 'em:
+Time for some `Bookshelf` methods! I'm gonna need a few of 'em:
 
 ### By title
 
@@ -48,7 +48,7 @@ You don't need a hint for this one, do you?
 ### By location on shelf
 
 Maybe I want the first book on my shelf, can you get that for me?
-I don't want the `0th` book, I don't know what that is. I want the **first** thing!
+I don't want the `0th` book, I don't know what that is. I want the **first** thing! This can be a one line function by the way.
 
 ## More books!!
 
