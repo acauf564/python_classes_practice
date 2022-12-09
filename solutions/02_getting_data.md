@@ -50,3 +50,7 @@ I'm not gonna give you the indexes just yet, you can do those yourselves.
             return f"{last_name}, {first_initial} ({year}). {title}."
 
 ```
+
+Your GNED 1401 prof would be proud.
+
+</details>

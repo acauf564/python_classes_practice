@@ -52,11 +52,17 @@ I don't want the `0th` book, I don't know what that is. I want the **first** thi
 
 ## More books!!
 
-I've included a file called `my_shelf.txt` in this repo. In it is a bunch of books, their authors, and their publication dates. Read these and turn them into `Book`s please. Oh, and put them on a `Bookshelf`.
+I've included a file called `my_shelf.txt` in this repo. In it is a bunch of books, their authors, and their publication dates. Read these and turn them into `Book`s please. Oh, and put them on a `Bookshelf`. You shouldn't _have_ to `try/except` these, but if you want to, be my guest. It ain't gonna be on the exam, so I don't care too much.
+
+Also, you're gonna need to make some edits to some existing functions. Not all these authors have a last name, so you're just gonna have to use their first name without an initial.
+
+Also, a few of those methods up there need to be edited. There are gonna be a few books that were written in the same year, or by the same author. Just return a list full of them. If there's only one book that matches the criteria, just return the one book in a list.
 
 ## More methods!!!
 
-Now, I've included a lot of books. This is a real depiction of my shelf at home. Literally, I've read all of these. Don't judge. Now, let's do some sorting.
+Now, I've included a lot of books. This is a real depiction of my shelf at home. Literally, I've read all\* of these. Don't judge. Now, let's do some sorting.
+
+###### \*edit: My girlfriend would like to inform you that I am a liar and have **not** read all of these.
 
 ### I'm old at heart
 
@@ -73,3 +79,7 @@ I've got two copies of the same book on my shelf! One's really old, and one's a 
 ## A Trip to IKEA
 
 Time for a new shelf. Could you take all the books written by an author with a last name between **A and K** and move them into the new shelf. You can delete them from the old shelf when you're done.
+
+## Moving Out
+
+I've got to pack up these books and move them to a new apartment. Can you create a `MovingBox` class that stores its own list of `books`? Also, books are heavy, so make sure that when I `add_book()` to this box, that I don't have over `15` books. Make as many boxes as you need, and put 'em into a list for me. I'll unpack those later.
